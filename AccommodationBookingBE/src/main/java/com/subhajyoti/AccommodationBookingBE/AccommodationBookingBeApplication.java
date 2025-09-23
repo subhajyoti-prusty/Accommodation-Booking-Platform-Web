@@ -15,9 +15,13 @@ import org.springframework.scheduling.annotation.EnableAsync;
 //@RequiredArgsConstructor
 public class AccommodationBookingBeApplication {
 
-//	private	final NotificationServices notificationServices;
+//	private	final NotificationServices notificationServices ;
+//
+//    public AccommodationBookingBeApplication(NotificationServices notificationServices) {
+//        this.notificationServices = notificationServices;
+//    }
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 		SpringApplication.run(AccommodationBookingBeApplication.class, args);
 	}
 
